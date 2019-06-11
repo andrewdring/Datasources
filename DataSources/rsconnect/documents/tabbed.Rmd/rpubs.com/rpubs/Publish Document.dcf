@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/503634/ec7e7f744f1c45cd84303fbef63b498f
+bundleId: https://api.rpubs.com/api/v1/document/503634/ec7e7f744f1c45cd84303fbef63b498f
+url: http://rpubs.com/ADOAT/503634
+when: 1560177689.56901

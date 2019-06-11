@@ -1,0 +1,553 @@
+---
+output:
+  html_document:
+    theme: flatly
+    highlight: tango
+    number_sections: false
+    toc: false
+    toc_float: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h3>Guide to data sources</h3>
+
+<h5>Navigate the currently catalogued data sources using the tabs below.</h5>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# {.tabset .tabset-fade .tabset-pills}
+<h3>Topics</h3>
+## Overarching  {.tabset .tabset-fade .tabset-pills}
+<h3>Datasets</h3>
+### Global Burden of Disease 
+
+<H4>Overarching > Global Burden of Disease</h4>
+
+<table>
+<thread>
+<tr><td>
+
+<h3>Purpose</h3> 
+
+<p>
+In order to achieve the goal of enabling the global population to live a long life in full health we need a comprehensive picture of what disables and kills people across countries, time, age, and sex. The Global Burden of Disease (GBD) provides a tool to quantify health loss from hundreds of diseases, injuries, and risk factors, so that health systems can be improved and disparities can be eliminated. 
+</p>
+</td></tr>
+
+<tr><td>
+<h3>History</h3>
+
+<p>
+The first iteration of the GBD was published in 2010, and since then releases in 2013, 2015, 2016, and 2017 have followed. The GBD utilises data from 1990 to the present, and is updated semi-annually.
+</p>
+</td>
+</tr> 
+ 
+<tr><td>
+<h3>Key Features</h3>
+
+<Ul>
+<li>Global data resource</li>
+<li>Free to use and publically available</li>
+<li>Variety of methods for accessing the data</li>
+<li>Over 1 billion data points </li>
+<li>Enables comparison between 195 countries worldwide</li>
+<li>Allows comparison of harm as well as prevalence</li>
+<li>Looks at 293 different causes of mortality and morbidity</li>
+<li>Looks at 67 underlying risks to life and health</li>
+<li>Key measures include deaths, disability-adjusted life years (DALYs), years lived with disability (YLD) and years of life lost (YLL)</li>
+</ul>
+</td></tr>
+
+```{r}
+```   
+<tr><td> 
+<h3>Content</h3>
+<p>The GBD contains data in the following categories:</p>
+<ul>
+<li>Location:  195 countries plus region and super-region aggregations.</li>
+<li>Year:  Single year from 1990 to 2017.</li>
+<li>Topic:  Cause (293 distinct causes of death plus aggregations), risk (67 distinct risks plus aggregations), life expectancy, healthy life expectancy plus six further topics.</li>
+<li>Age and sex:  5 year age bands from 0-4 to 95+, plus other wider aggregations, males, females, persons.</li>
+<li>Measure: Deaths, DALYs, YLLs, YLDs, prevalence, incidence, maternal mortality ratio and probability of death.</li>
+<li>Metric:  Rates, counts, percent.</li>
+</ul>
+</tr></td>
+
+```{r}
+```
+<tr><td>
+<h3>Ownership</h3>
+
+<p>
+The data is owned by the Institute for Health Metrics and Evaluation (IHME).
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Aggregation</h3>
+
+<p>
+The data is available at national and international aggregations.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sharing</h3>
+<p>
+Published data may be reproduced with the appropriate source reference to the IHME.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Temporality</h3> 
+<p>
+The data is released semi-annually. The current data is available in single years from 1990 to 2017. 
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Indicative use cases</h3>
+<p>
+This data has previously been used in our publication âHealth and its Determinants in Walesâ which used measures such as DALYs to investigate the issues which most impact Wales. This report was instrumental in shaping the  long term strategy of Public Health Wales.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sample size</h3>
+<p>
+Global data with in excess of 90,000 data sources resulting in the generation of over 1 billion data points.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Representativeness</h3>
+<p>
+The representativeness of sample is dependent on the data used to model the estimates. For developed countries with robust vital event registration systems and large reliable bodies of scientific evidence such as Wales our full and complete deaths registration data is used giving a highly accurate model. 
+</P>
+</tr></td>
+
+<tr><td>
+<h3 id="GBD">Completeness</h3>
+
+<p>
+Data on deaths and causes including DALYs, YLLS, YLDs, has high completeness of >95% for Wales. Data on risks is produced in an iterative process with more risks added as the published evidence allows.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Linkage potential</h3>
+<p>
+The GBD uses source country vital event registration data which is already available for used in data linkage in Wales.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Known caveats or limitations</h3>
+
+<ul>
+<li>The GBD is a broad brush stroke comparative tool for national and international data, it cannot be used for precise estimates.</li> 
+<li>The GBD uses modelled estimates which rely on the quality of inputs, such as registration, survey and published study data, available.</li> 
+<li>Where no country specific data is available regional or continental data may be used instead.</li>
+</ul>
+</div>
+
+### Family Spending Data
+
+<H4>Overarching > Family Spending Data</h4>
+
+<h3>Purpose</h3> 
+<p>
+The Living Costs and Food Survey (LCF) collects information on spending patterns and the cost of living that reflect household budgets.   The survey provides essential information for key social and economic measures and detailed information on food consumption and nutrition.</p>
+<p>
+It is also an important source of economic and social data for a range of government and other research agencies.
+The survey collects information about regular expenditure, such as rent and mortgage payments,  along with retrospective information on certain large, infrequent expenditures such as those on vehicles.</P>
+<p>The results are essential for understanding society and planning to meet its needs.
+</p>
+<h3>History</h3>
+<p>
+A household expenditure survey has been conducted each year in the UK since 1957. From 1957 to March 2001, the Family Expenditure Survey (FES) and National Food Survey (NFS) provided information on household expenditure patterns and food consumption.  In April 2001 these surveys were combined to form the Expenditure and Food Survey (EFS). The EFS was renamed as the Living Costs and Food (LCF) survey in January 2008 when it became part of the Integrated Household Survey (IHS). The change saw the insertion of a core set of questions, common to all of the separate surveys that together comprise the IHS. The long history of the survey has inevitably meant that discontinuities have been introduced. 
+</p>
+
+<h3>Key Features</h3>
+
+<Ul>
+<li>
+Survey conducted annually and reported as 3 years combined
+</li>
+<li>
+Allows comparison between UK countries and English regions
+</li>
+<li>
+Looks at household expenditure in 13 different categories
+</li>
+<li>
+Free to use and publically available
+</li>
+<li>
+The LCF is a continuous survey with interviews spread evenly over the year to ensure that estimates are not biased by seasonal variation.
+</li>
+<li>
+Spend can be broken down by food and drink by type.
+</li>
+</ul>
+
+<h3>Content</h3>
+<p>The LCF contains data in the following categories:</p>
+<ul>
+<li>
+Location: UK nations and English regions
+</li>
+<li>
+Year: 3 year combined from 2006-08 to 2015-17 (financial year from 2013-15 onwards)
+</li>
+<li>
+Topic:  Food And Non-Alcoholic Beverages; Alcoholic Beverages And Tobacco; Clothing And Footwear; Housing, Water, Gas, Electricity And Other Fuels; Furnishings, Ho<usehold Equipment And Routine Maintenance Of The House; Health; Transport; Communications; Recreation And Culture; Education; Miscellaneous Goods And Services  
+</li>
+<li>
+Age and sex:  Household data therefore no age or sex breakdown available
+</li>
+<li>
+Measure: Average weekly household expenditure (£)
+</li>
+<li>
+Metric: Cost in pounds (£)
+</li>
+</ul>
+
+<h3>Ownership</h3>
+<p>The data is owned by the Office for National Statistics (ONS).</p>
+
+<h3>Aggregation</h3>
+<p>UK nations and English regions.</p>
+
+<h3>Sharing</h3>
+<p>Published data may be reproduced with the appropriate source reference to the ONS.</p>
+
+<h3>Temporality</h3>
+<p>Data averaged over 3 years released annually. Data were based on calendar year up to 2012-14 and financial year from 2013-15 onwards.</p>
+
+<h3>Indicative use cases</h3>
+<p>This data has previously been used in our publication ‘Obesity in Wales’ which used measures such as average weekly household expenditure on food, eating and drinking out and spend on alcohol.   These products have been created to support Welsh Government’s ‘Healthy Weight: Healthy Wales’ strategy development and the accompanying consultation.</p>
+
+<h3>Sample size</h3>
+<p>Approximately 6,000 responding households in the UK per year.</p>
+
+<h3>Representativeness</h3>
+<p>The LCF sample for Great Britain is a multi-stage stratified random sample with clustering. It is drawn from the small users file of the postcode address file (PAF) – the Post Office’s list of addresses. After stratification by two census variables, 639 postal sectors are randomly selected and, from within these, households are sampled.
+The data is weighted and includes children's expenditure.</p>
+
+<h3>Completeness</h3>
+<p>
+The overall response rate for Great Britain in the LCF in financial year;</p> 
+<p>2018 was 43%;</p>
+<p>2017 was 45%; </p>
+<p>2016 was 46%.</p>
+<p>
+Because of the practicalities of running a voluntary survey, it is not possible to get full response from every selected household. Of the total 11,505 households in Great Britain selected for the LCF in 2016/17, there were 4,641 households that co-operated fully in the survey, including 125 households that provided sufficient information to be included as valid responses.</p>
+
+<h3>Linkage potential</h3>
+<p>Survey data does not have sufficient identifiable characteristics provided to enable linkage.</p>
+
+<h3>Known caveats or limitations</h3>
+<ul>
+<li>
+A long-term decline in response has been observed for the Living Costs and Food survey, in common with other social surveys. 
+</li>
+<li>
+Non-response weighting is applied to help mitigate non-response bias.
+</li>
+<li>
+All spending estimates are rounded to the nearest £0.10. 
+</li>
+<li>
+Household expenditure excludes mortgage interest payments, council tax and Northern Ireland rates.
+</li>
+</ul>
+
+## Healthy Eating {.tabset .tabset-fade .tabset-pills}
+<h2>Datasets</h2>
+
+### Food & You
+<H4>Healthy Eating > Food & You</h4>
+
+<table>
+<tr><td>
+<h3>Purpose</h3> 
+
+<p>
+Food and You is a biennial survey exploring the publicâs attitudes, reported knowledge and behaviour relating to food safety and other food-related issues. This involves food purchasing, storage, preparation, consumption and factors that may affect these.The survey is based on adults aged 16 years and over living in private households.
+</p>
+</td>
+</tr>
+
+```{r}
+```
+   
+<tr>
+<td>
+<h3>History</h3>
+<p>
+There have been four waves of the Food and You survery which began in January 2008.  The first three waves of the survey were carried out by TNS BMRB (in 2010, 2012 and 2014 respectively). NatCen Social Research (NatCen), in collaboration with the Northern Ireland Statistics and Research Agency (NISRA), was contracted to carry out Waves 4, and also future Waves 5 and 6 of the survey. Wave 4 (2016) is the most recent.
+</p>
+</td>
+</tr> 
+ 
+<tr><td>
+<h3>Key Features</h3>
+
+<Ul>
+<li>
+Since 2014, results from Food and You have been published as an Official Statistic, reflecting the robust methodology of the survey.
+</li>
+<li>
+Enables comparison between 4 periods
+</li>
+<li>
+Biennial survey
+</li>
+<li>
+Free to use and record level data available on request
+</li>
+<li>
+Self-reported, face to face interviews
+</li>
+</ul>
+</td></tr>
+
+```{r}
+```   
+<tr><td> 
+<h3>Content</h3>
+<p>Food and You contains data in the following categories:
+</p>
+<ul>
+<li>Location:  Wales, England, Northern Ireland and Scotland (wave 4 excludes data for Scotland)</li>
+<li>Year:  4 Waves of the survey between 2010-2016</li>
+<li>Topic: Topics have reflected the priorities and interests of the Food Standards Agency (FSA);
+Wave 1 assessed consumer attitudes and behaviour to food-related issues falling under the FSAâs remit.
+Wave 2  focussed on food safety and hygiene issues.
+Wave 3  was designed to monitor changes since the previous two waves in attitudes and reported behaviour about food issues, to identify at-risk groups for food safety issues, and to explore public understanding of issues regarding the FSAâs targets.
+Wave 4 of the Food and You Survey included new questions to cover affordability of food, choice, security and sustainability.</li>
+<li>Age and sex: males, females, persons aged 16 and over</li>
+<li>Measures: Attitudes, reported knowledge and behaviour relating to food safety and other food-related issues</li>
+<li>Metric: Access to raw data allows calculation of multiple indicators such as rates, counts and percentages.</li>
+</ul>
+</tr></td>
+
+```{r}
+```
+<tr><td>
+<h3>Ownership</h3>
+
+<p>
+The data is owned by the Food Standards Agency (FSA).
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Aggregation</h3>
+
+<p>
+The data is available for Wales, England, Northern Ireland and Scotland.  Wave 4 excludes data for Scotland.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sharing</h3>
+<p>
+Data may be reproduced with the appropriate source reference.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Temporality</h3> 
+<p>
+The data was released in waves between January 2010 and September 2016.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Indicative use cases</h3>
+<p>
+This data has previously been used in our publication âObesity in Walesâ which used measures such as average weekly household expenditure on food, eating and drinking out,  alcohol.   These products have been created to support Welsh Governmentâs âHealthy Weight: Healthy Walesâ strategy development and the accompanying consultation.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sample size</h3>
+<p>
+Wave 1 (January 2008 to January 2010);  3,163
+Wave 2 (January 2010 to January 2012);  3,231
+Wave 3 (January 2012 to October 2014);  3,453
+Wave 4 (May to September 2016);  3,118
+
+Samples in Scotland, Northern Ireland, and Wales were boosted to approximately 500 interviews to enable more detailed analysis at a nation level.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Representativeness</h3>
+<p>
+Random probability sampling ensures that everyone in the included countries has an equal chance of being selected to take part, so the results are representative of the population. Weighting is applied to ensure the results from each country were representative of that countryâs population. Representative sample of persons aged 16+ living in private households.
+</P>
+</tr></td>
+
+<tr><td>
+<h3 id="GBD">Completeness</h3>
+
+<p>
+Completeness ranges by different variables.  Access to raw data allows completeness chaecks to be carried out prior to analysis.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Linkage potential</h3>
+<p>
+Survey data does not have sufficient identifiable characteristics provided to enable linkage.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Known caveats or limitations</h3>
+
+<p>The Food and You survey is self-reported data which has a number of limitations: </p>
+<ul>
+<li>Using interviews as a data collection method does not directly capture peopleâs actual practices for a number of reasons, including recall not being accurate, certain behaviours being habitual and therefore possibly difficult to recall, and desirability bias.</li> 
+<li>Here self-reported behaviour is used as a proxy for actual behaviour. Where the report refers to behaviour, attitudes or knowledge, the fact that the data refer to reported behaviour must always be borne in mind.</li> 
+<li>The risk of social desirability bias is also high i.e. respondents tend to answer questions based on what they think they ought to say, rather than reflecting what they actually do, know or think.</li>
+
+</ul>
+</tr></td>
+</div>
+
+### Nutrition & Diet Survey 
+
+<H4>Healthy Eating > Nutrition & Diet Survey</h4>
+
+<h3>Purpose</h3> 
+<p>
+The National Diet and Nutrition Survey (NDNS) assesses the diet, nutrient intake and nutritional status of the general population of the UK. It is a continuous, cross-sectional survey designed to collect data on the population aged 1.5 years and over living in private households in the UK.  
+The NDNS rolling programme comprises an interview, a 4-day estimated diet diary, physical measurements and a blood and urine sample. 
+Results are used by government to monitor progress toward diet and nutrition objectives of UK Health Departments and to develop policy interventions.
+</p>
+
+<h3>History</h3>
+<p>
+The NDNS programme began in 1992 as a series of cross-sectional surveys, each covering a different age group. Since 2008, the NDNS has been a rolling programme covering adults and children aged 1.5 years and over.  
+A contract to deliver years 11 to 14 of the rolling programme (2018 to 2019 up to 2021 to 2022) has been awarded to NatCen Social Research working with the MRC Epidemiology Unit at the University of Cambridge.
+</p>
+
+<h3>Key Features</h3>
+
+<Ul>
+<li>
+The NDNS provides the only source of nationally representative UK data on the types and quantities of foods consumed by individuals, from which estimates of nutrient intake for the population are derived. 
+</li>
+<li>
+Results are used by Government to monitor progress toward diet and nutrition objectives of UK Health Departments and develop policy interventions, for example work to monitor progress towards a healthy, balanced diet as visually depicted in the Eatwell Guide.
+</li>
+<li>
+The NDNS is an important source of evidence underpinning the Scientific Advisory Committee on Nutrition’s (SACN) work relating to national nutrition policy.  
+</li>
+<li>
+The food consumption data is also used by the FSA to assess exposure to chemicals in food, as part of the risk assessment and communication process in response to a food emergency or to inform negotiations on setting regulatory limits for contaminants.
+</li>
+<li>
+Official statistics
+</li>
+<li>
+Free to use and publically available
+</li>
+</ul>
+
+
+```{r}
+```   
+
+<h3>Content</h3>
+<p>The NDNS contains data in the following categories:
+</p>
+<ul>
+<li>Location: UK nations</li>
+<li>Year: 2008/09 - 2015/16</li>
+<li>Topic:  Varied variables on food and alcohol consumption, nutrient intake such as total energy, protein, carbohydrate and fat intake and nutritional status.</li>
+<li>Age and sex:  Population aged 1.5 years and over   (Age groups; 1.5-3yrs, 4-10, 11-18, 19-64, 65+ / 65-74, 75+)</li>
+<li>Measure:  Percentage contribution of food groups</li>
+<li>Metric: Nutritional intake</li>
+</ul>
+
+```{r}
+```
+
+<h3>Ownership</h3>
+
+<p>
+Jointly funded by Public Health England and the UK Food Standards Agency
+</p>
+
+<h3>Aggregation</h3>
+
+<p>
+UK nations
+</p>
+
+
+<h3>Sharing</h3>
+<p>
+Published data may be reproduced with the appropriate source reference.
+</p>
+
+
+<h3>Temporality</h3> 
+<p>
+Data averaged over 4 years released annually.
+</p>
+
+
+
+<h3>Indicative use cases</h3>
+<p>
+This data has previously been used in our publication ‘Obesity in Wales’ which used measures such as average weekly household expenditure on food, eating and drinking out and spend on alcohol.   These products have been created to support Welsh Government’s ‘Healthy Weight: Healthy Wales’ strategy development and the accompanying consultation.
+</p>
+
+<h3>Sample size</h3>
+<p>
+Representative sample of around 1000 people per year (500 adults, 500 children)
+</p>
+
+<h3>Representativeness</h3>
+<p>
+Recruitment in both Wales was boosted to 200 participants per year in order to achieve country-specific, representative dietary health data.
+The survey is designed so that all days of the week were evenly represented.
+</P>
+
+<h3>Linkage potential</h3>
+<p>
+Survey data does not have sufficient identifiable characteristics provided to enable linkage.
+</p>
+
+<h3>Known caveats or limitations</h3>
+
+<p>The Food and You survey is self-reported data which has a number of limitations: </p>
+<ul>
+<li>
+In the Years 1 to 4 (combined) dataset there was a slightly higher proportion of weekend days than weekdays.
+</li> 
+<li>
+In the Years 5 to 9 (combined) dataset each day of the week was equally represented.
+</li> 
+<li>
+It is possible that estimated intake from some components of the diet may be underestimated due to portion size estimates or food composition assumptions.
+</li>
+
+</ul>
+</div>

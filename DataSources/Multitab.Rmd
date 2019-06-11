@@ -1,0 +1,173 @@
+---
+output:
+  html_document:
+    theme: flatly
+    highlight: tango
+    number_sections: false
+    toc: false
+    toc_float: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="jumbotron">
+  <h2>Guide to data sources</h2>
+  
+<h5>This guide is a live resource which documents the exploration of new data sources during the development of our new health intelligence resources, and other projects. It also provides a database of sources for use with future work. Where a potential data source is identified through the course of developing our new health intelligence resources it will be catalogued and evaluated here, as such this resource will grow and change as new content is added.</h5>
+
+<p><a href="http://www.publichealthwalesobservatory.wales.nhs.uk/phw-data" target="_blank" class="btn btn-primary">Public Health Wales data</a></p>  
+
+<h4>Navigate the currently catalogued data sources using the tabs below.</h4>
+</div>
+
+# Topics {.tabset .tabset-fade .tabset-pills}
+
+## Overarching {.tabset .tabset-fade .tabset-pills}
+
+<h2>Datasets</h2>
+
+<div id="quarterly-product" class="section level3">
+
+### Global Burden of Disease
+
+<h2>Global Burden of Disease</h2>
+
+<table class="table table-striped">
+<thread>
+<tr><td>
+
+<h3>Purpose</h3> 
+
+<p>
+GBD
+</p>
+</td></tr>
+
+
+<tr><td>
+<h3>History</h3>
+
+<p>
+GBD
+</p>
+</td>
+</tr> 
+ 
+</div> 
+
+
+
+### National Survey for Wales
+
+<table class="table table-striped">
+<thread>
+<tr><td>
+
+<h3>Purpose</h3> 
+
+<p>
+NSW
+</p>
+</td></tr>
+
+
+<tr><td>
+<h3>History</h3>
+
+<p>
+NSW
+</p>
+</td>
+</tr> 
+
+</div>
+
+<div id="quarterly-region" class="section level3">
+
+### Annual Population Survey
+
+<table class="table table-striped">
+<thread>
+<tr><td>
+
+<h3>Purpose</h3> 
+
+<p>
+APS
+</p>
+</td></tr>
+
+
+<tr><td>
+<h3>History</h3>
+
+<p>
+APS
+</p>
+</td>
+</tr> 
+
+</div>
+
+## Healthy Eating {.tabset .tabset-fade .tabset-pills}
+
+<div id="quarterly-product" class="section level3">
+
+### Food & You
+
+<h2>Food & You</h2>
+
+</div>
+
+<table class="table table-striped">
+<tr><td>
+
+<h3> Purpose </h3>
+
+<p>
+Food and You is a biennial survey exploring the publicâs attitudes, reported knowledge and behaviour relating to food safety and other food-related issues. This involves food purchasing, storage, preparation, consumption and factors that may affect these.The survey is based on adults aged 16 years and over living in private households.
+</p>
+</td>
+</tr>
+
+```{r}
+```
+   
+<tr>
+<td>
+<h3>History</h3>
+<p>
+There have been four waves of the Food and You survery which began in January 2008.  The first three waves of the survey were carried out by TNS BMRB (in 2010, 2012 and 2014 respectively). NatCen Social Research (NatCen), in collaboration with the Northern Ireland Statistics and Research Agency (NISRA), was contracted to carry out Waves 4, and also future Waves 5 and 6 of the survey. Wave 4 (2016) is the most recent.
+</p>
+</td>
+</tr> 
+ 
+<div id="quarterly-region" class="section level3">
+
+### Nutrition & Diet Survey       
+
+<h2>Nutrition & Diet Survey</h2>
+
+</div>
+
+<table class="table table-striped">
+<tr><td>
+
+<p>
+The National Diet and Nutrition Survey (NDNS) assesses the diet, nutrient intake and nutritional status of the general population of the UK. It is a continuous, cross-sectional survey designed to collect data on the population aged 1.5 years and over living in private households in the UK.
+The NDNS rolling programme comprises an interview, a 4-day estimated diet diary, physical measurements and a blood and urine sample. Results are used by government to monitor progress toward diet and nutrition objectives of UK Health Departments and to develop policy interventions.
+</p>
+</td>
+</tr>
+
+## Alcohol
+
+
+
+
+

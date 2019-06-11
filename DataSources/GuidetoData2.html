@@ -1,0 +1,322 @@
+---
+title: 
+runtime: shiny_prerendered
+
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "bootstrap.css" />
+</head>
+<body>
+
+<div class="jumbotron">
+  <h2>Guide to data sources</h2>
+  
+<h5>This guide is a live resource which documents the exploration of new data sources during the development of our new health intelligence resources, and other projects. It also provides a database of sources for use with future work. Where a potential data source is identified through the course of developing our new health intelligence resources it will be catalogued and evaluated here, as such this resource will grow and change as new content is added.</p>
+
+<p><a href="http://www.publichealthwalesobservatory.wales.nhs.uk/phw-data" target="_blank" class="btn btn-primary">Public Health Wales data</a></p>  
+
+<h4>Navigate the currently catalogued data sources using the tabs below.</h4>
+</div>
+
+## Datasets {#datasets .tabset .tabset-fade .tabset-pills}
+### Global Burden of Disease
+<h2>Global Burden of Disease</h2>
+
+</div>
+<table class="table table-striped">
+<thread>
+<tr><td>
+
+<h3>Purpose</h3> 
+
+<p>
+In order to achieve the goal of enabling the global population to live a long life in full health we need a comprehensive picture of what disables and kills people across countries, time, age, and sex. The Global Burden of Disease (GBD) provides a tool to quantify health loss from hundreds of diseases, injuries, and risk factors, so that health systems can be improved and disparities can be eliminated. 
+</p>
+</td></tr>
+
+    
+```{r}
+```
+   
+<tr><td>
+<h3>History</h3>
+
+<p>
+The first iteration of the GBD was published in 2010, and since then releases in 2013, 2015, 2016, and 2017 have followed. The GBD utilises data from 1990 to the present, and is updated semi-annually.
+</p>
+</td>
+</tr> 
+ 
+<tr><td>
+<h3>Key Features</h3>
+
+<Ul>
+<li>Global data resource</li>
+<li>Free to use and publically available</li>
+<li>Variety of methods for accessing the data</li>
+<li>Over 1 billion data points </li>
+<li>Enables comparison between 195 countries worldwide</li>
+<li>Allows comparison of harm as well as prevalence</li>
+<li>Looks at 293 different causes of mortality and morbidity</li>
+<li>Looks at 67 underlying risks to life and health</li>
+<li>Key measures include deaths, disability-adjusted life years (DALYs), years lived with disability (YLD) and years of life lost (YLL)</li>
+</ul>
+</td></tr>
+
+```{r}
+```   
+<tr><td> 
+<h3>Content</h3>
+<p>The GBD contains data in the following categories:</p>
+<ul>
+<li>Location:  195 countries plus region and super-region aggregations.</li>
+<li>Year:  Single year from 1990 to 2017.</li>
+<li>Topic:  Cause (293 distinct causes of death plus aggregations), risk (67 distinct risks plus aggregations), life expectancy, healthy life expectancy plus six further topics.</li>
+<li>Age and sex:  5 year age bands from 0-4 to 95+, plus other wider aggregations, males, females, persons.</li>
+<li>Measure: Deaths, DALYs, YLLs, YLDs, prevalence, incidence, maternal mortality ratio and probability of death.</li>
+<li>Metric:  Rates, counts, percent.</li>
+</ul>
+</tr></td>
+
+```{r}
+```
+<tr><td>
+<h3>Ownership</h3>
+
+<p>
+The data is owned by the Institute for Health Metrics and Evaluation (IHME).
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Aggregation</h3>
+
+<p>
+The data is available at national and international aggregations.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sharing</h3>
+<p>
+Published data may be reproduced with the appropriate source reference to the IHME.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Temporality</h3> 
+<p>
+The data is released semi-annually. The current data is available in single years from 1990 to 2017. 
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Indicative use cases</h3>
+<p>
+This data has previously been used in our publication ‘Health and its Determinants in Wales’ which used measures such as DALYs to investigate the issues which most impact Wales. This report was instrumental in shaping the  long term strategy of Public Health Wales.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sample size</h3>
+<p>
+Global data with in excess of 90,000 data sources resulting in the generation of over 1 billion data points.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Representativeness</h3>
+<p>
+The representativeness of sample is dependent on the data used to model the estimates. For developed countries with robust vital event registration systems and large reliable bodies of scientific evidence such as Wales our full and complete deaths registration data is used giving a highly accurate model. 
+</P>
+</tr></td>
+
+<tr><td>
+<h3 id="GBD">Completeness</h3>
+
+<p>
+Data on deaths and causes including DALYs, YLLS, YLDs, has high completeness of >95% for Wales. Data on risks is produced in an iterative process with more risks added as the published evidence allows.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Linkage potential</h3>
+<p>
+The GBD uses source country vital event registration data which is already available for used in data linkage in Wales.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Known caveats or limitations</h3>
+
+<ul>
+<li>The GBD is a broad brush stroke comparative tool for national and international data, it cannot be used for precise estimates.</li> 
+<li>The GBD uses modelled estimates which rely on the quality of inputs, such as registration, survey and published study data, available.</li> 
+<li>Where no country specific data is available regional or continental data may be used instead.</li>
+</ul>
+
+### Food & You
+<h2>Food & You</h2>
+
+<table class="table table-striped">
+<tr><td>
+<h3>Purpose</h3> 
+
+<p>
+Food and You is a biennial survey exploring the public’s attitudes, reported knowledge and behaviour relating to food safety and other food-related issues. This involves food purchasing, storage, preparation, consumption and factors that may affect these.The survey is based on adults aged 16 years and over living in private households.
+</p>
+</td>
+</tr>
+
+```{r}
+```
+   
+<tr>
+<td>
+<h3>History</h3>
+<p>
+There have been four waves of the Food and You survery which began in January 2008.  The first three waves of the survey were carried out by TNS BMRB (in 2010, 2012 and 2014 respectively). NatCen Social Research (NatCen), in collaboration with the Northern Ireland Statistics and Research Agency (NISRA), was contracted to carry out Waves 4, and also future Waves 5 and 6 of the survey. Wave 4 (2016) is the most recent.
+</p>
+</td>
+</tr> 
+ 
+<tr><td>
+<h3>Key Features</h3>
+
+<Ul>
+<li>
+Since 2014, results from Food and You have been published as an Official Statistic, reflecting the robust methodology of the survey.
+</li>
+<li>
+Enables comparison between 4 periods
+</li>
+<li>
+Biennial survey
+</li>
+<li>
+Free to use and record level data available on request
+</li>
+<li>
+Self-reported, face to face interviews
+</li>
+</ul>
+</td></tr>
+
+```{r}
+```   
+<tr><td> 
+<h3>Content</h3>
+<p>Food and You contains data in the following categories:
+</p>
+<ul>
+<li>Location:  Wales, England, Northern Ireland and Scotland (wave 4 excludes data for Scotland)</li>
+<li>Year:  4 Waves of the survey between 2010-2016</li>
+<li>Topic: Topics have reflected the priorities and interests of the Food Standards Agency (FSA);
+Wave 1 assessed consumer attitudes and behaviour to food-related issues falling under the FSA’s remit.
+Wave 2  focussed on food safety and hygiene issues.
+Wave 3  was designed to monitor changes since the previous two waves in attitudes and reported behaviour about food issues, to identify at-risk groups for food safety issues, and to explore public understanding of issues regarding the FSA’s targets.
+Wave 4 of the Food and You Survey included new questions to cover affordability of food, choice, security and sustainability.</li>
+<li>Age and sex: males, females, persons aged 16 and over</li>
+<li>Measures: Attitudes, reported knowledge and behaviour relating to food safety and other food-related issues</li>
+<li>Metric: Access to raw data allows calculation of multiple indicators such as rates, counts and percentages.</li>
+</ul>
+</tr></td>
+
+```{r}
+```
+<tr><td>
+<h3>Ownership</h3>
+
+<p>
+The data is owned by the Food Standards Agency (FSA).
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Aggregation</h3>
+
+<p>
+The data is available for Wales, England, Northern Ireland and Scotland.  Wave 4 excludes data for Scotland.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sharing</h3>
+<p>
+Data may be reproduced with the appropriate source reference.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Temporality</h3> 
+<p>
+The data was released in waves between January 2010 and September 2016.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Indicative use cases</h3>
+<p>
+This data has previously been used in our publication ‘Obesity in Wales’ which used measures such as average weekly household expenditure on food, eating and drinking out,  alcohol.   These products have been created to support Welsh Government’s ‘Healthy Weight: Healthy Wales’ strategy development and the accompanying consultation.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sample size</h3>
+<p>
+Wave 1 (January 2008 to January 2010);  3,163
+Wave 2 (January 2010 to January 2012);  3,231
+Wave 3 (January 2012 to October 2014);  3,453
+Wave 4 (May to September 2016);  3,118
+
+Samples in Scotland, Northern Ireland, and Wales were boosted to approximately 500 interviews to enable more detailed analysis at a nation level.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Representativeness</h3>
+<p>
+Random probability sampling ensures that everyone in the included countries has an equal chance of being selected to take part, so the results are representative of the population. Weighting is applied to ensure the results from each country were representative of that country’s population. Representative sample of persons aged 16+ living in private households.
+</P>
+</tr></td>
+
+<tr><td>
+<h3 id="GBD">Completeness</h3>
+
+<p>
+Completeness ranges by different variables.  Access to raw data allows completeness chaecks to be carried out prior to analysis.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Linkage potential</h3>
+<p>
+Survey data does not have sufficient identifiable characteristics provided to enable linkage.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Known caveats or limitations</h3>
+
+<p>The Food and You survey is self-reported data which has a number of limitations: </p>
+<ul>
+<li>Using interviews as a data collection method does not directly capture people’s actual practices for a number of reasons, including recall not being accurate, certain behaviours being habitual and therefore possibly difficult to recall, and desirability bias.</li> 
+<li>Here self-reported behaviour is used as a proxy for actual behaviour. Where the report refers to behaviour, attitudes or knowledge, the fact that the data refer to reported behaviour must always be borne in mind.</li> 
+<li>The risk of social desirability bias is also high i.e. respondents tend to answer questions based on what they think they ought to say, rather than reflecting what they actually do, know or think.</li>
+
+</ul>
+</tr></td>
+
+### National Diet and Nutrition Survey
+### Family Spending Data
+</body>
+</html>
+

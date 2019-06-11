@@ -1,0 +1,160 @@
+---
+title: "Data source guide"
+output: 
+  rmarkdown::html_document:
+   theme: flatly
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+## Datasets {.tabset .tabset-fade .tabset-pills}
+
+### Food & You
+
+### Global Burden of Disease
+
+
+<h2>Global Burden of Disease</h2>
+
+<table class="table table-striped">
+<thread>
+<tr><td><h3>Purpose</h3> 
+
+<p>
+In order to achieve the goal of enabling the global population to live a long life in full health we need a comprehensive picture of what disables and kills people across countries, time, age, and sex. The Global Burden of Disease (GBD) provides a tool to quantify health loss from hundreds of diseases, injuries, and risk factors, so that health systems can be improved and disparities can be eliminated. 
+</p>
+</td></tr>
+
+    
+```{r}
+```
+   
+<tr><td>
+<h3>History</h3>
+
+<p>
+The first iteration of the GBD was published in 2010, and since then releases in 2013, 2015, 2016, and 2017 have followed. The GBD utilises data from 1990 to the present, and is updated semi-annually.
+</p>
+</td>
+</tr> 
+ 
+<tr><td>
+<h3>Key Features</h3>
+
+<Ul>
+<li>Global data resource</li>
+<li>Free to use and publically available</li>
+<li>Variety of methods for accessing the data</li>
+<li>Over 1 billion data points </li>
+<li>Enables comparison between 195 countries worldwide</li>
+<li>Allows comparison of harm as well as prevalence</li>
+<li>Looks at 293 different causes of mortality and morbidity</li>
+<li>Looks at 67 underlying risks to life and health</li>
+<li>Key measures include deaths, disability-adjusted life years (DALYs), years lived with disability (YLD) and years of life lost (YLL)</li>
+</ul>
+</td></tr>
+
+```{r}
+```   
+<tr><td> 
+<h3>Content</h3>
+<p>The GBD contains data in the following categories:</p>
+<ul>
+<li>Location:  195 countries plus region and super-region aggregations.</li>
+<li>Year:  Single year from 1990 to 2017.</li>
+<li>Topic:  Cause (293 distinct causes of death plus aggregations), risk (67 distinct risks plus aggregations), life expectancy, healthy life expectancy plus six further topics.</li>
+<li>Age and sex:  5 year age bands from 0-4 to 95+, plus other wider aggregations, males, females, persons.</li>
+<li>Measure: Deaths, DALYs, YLLs, YLDs, prevalence, incidence, maternal mortality ratio and probability of death.</li>
+<li>Metric:  Rates, counts, percent.</li>
+</ul>
+</tr></td>
+
+```{r}
+```
+<tr><td>
+<h3>Ownership</h3>
+
+<p>
+The data is owned by the Institute for Health Metrics and Evaluation (IHME).
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Aggregation</h3>
+
+<p>
+The data is available at national and international aggregations.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sharing</h3>
+<p>
+Published data may be reproduced with the appropriate source reference to the IHME.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Temporality</h3> 
+<p>
+The data is released semi-annually. The current data is available in single years from 1990 to 2017. 
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Indicative use cases</h3>
+<p>
+This data has previously been used in our publication 'Health and its Determinants in Wales' which used measures such as DALYs to investigate the issues which most impact Wales. This report was instrumental in shaping the  long term strategy of Public Health Wales.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Sample size</h3>
+<p>
+Global data with in excess of 90,000 data sources resulting in the generation of over 1 billion data points.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Representativeness</h3>
+<p>
+The representativeness of sample is dependent on the data used to model the estimates. For developed countries with robust vital event registration systems and large reliable bodies of scientific evidence such as Wales our full and complete deaths registration data is used giving a highly accurate model. 
+</P>
+</tr></td>
+
+<tr><td>
+<h3 id="GBD">Completeness</h3>
+
+<p>
+Data on deaths and causes including DALYs, YLLS, YLDs, has high completeness of >95% for Wales. Data on risks is produced in an iterative process with more risks added as the published evidence allows.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Linkage potential</h3>
+<p>
+The GBD uses source country vital event registration data which is already available for used in data linkage in Wales.
+</p>
+</tr></td>
+
+<tr><td>
+<h3>Known caveats or limitations</h3>
+
+<ul>
+<li>The GBD is a broad brush stroke comparative tool for national and international data, it cannot be used for precise estimates.</li> 
+<li>The GBD uses modelled estimates which rely on the quality of inputs, such as registration, survey and published study data, available.</li> 
+<li>Where no country specific data is available regional or continental data may be used instead.</li>
+</ul>
+</tr></td>
+
+</div>
+
+</body>
+</html>
+

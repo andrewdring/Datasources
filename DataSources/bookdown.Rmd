@@ -1,0 +1,64 @@
+---
+title: "My Book"
+output: bookdown::gitbook
+site: bookdown::bookdown_site
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+# Topics 
+## Over-arching 
+### Global Burden of Disease
+<h2>Global Burden of Disease</h2>
+
+</div>
+<table class="table table-striped">
+<thread>
+<tr><td>
+
+<h3>Purpose</h3> 
+
+<p>
+In order to achieve the goal of enabling the global population to live a long life in full health we need a comprehensive picture of what disables and kills people across countries, time, age, and sex. The Global Burden of Disease (GBD) provides a tool to quantify health loss from hundreds of diseases, injuries, and risk factors, so that health systems can be improved and disparities can be eliminated. 
+</p>
+</td></tr>
+
+
+## Healthy Eating 
+### Food & You 
+<h2>Food & You</h2>
+
+<table class="table table-striped">
+<tr><td>
+<h3>Purpose</h3> 
+
+<p>
+Food and You is a biennial survey exploring the publicâs attitudes, reported knowledge and behaviour relating to food safety and other food-related issues. This involves food purchasing, storage, preparation, consumption and factors that may affect these.The survey is based on adults aged 16 years and over living in private households.
+</p>
+</td>
+</tr>
+
+<tr><td>
+<h3>Aggregation</h3>
+
+<p>
+The data is available for Wales, England, Northern Ireland and Scotland.  Wave 4 excludes data for Scotland.
+</p>
+</tr></td>
+
+#### National Diet and Nutrition Survey
+#### Family Spending Data
+</body>
+</html>
+
+
+
+
